@@ -9,20 +9,23 @@
     <script defer src="script.js"></script>
 </head>
     <body>
-        <div class="principal">
-            <div class="divForm">
-                <form class="imcForm">
-                    <input type="text" id="lblIdade" name="age" placeholder="Idade" value="" required><br><br>
-                    <input type="number" id="lblAltura" name="height" placeholder="Altura (m)" value="" requiered><br><br>
-                    <input type="number" id="lblPeso" name="weight" placeholder="Peso (kg)" value="" required><br><br>
-                </form>
-                <div class="divResult">
-                    <p>IDADE: <span id="userIdade"></span></p>
-                    <p>IMC: <span id="imcResult"></span></p>
-                    <p>SITUAÇÃO: <span id="imcSit"></span></p>
+            <div class="principal">
+                <div class="divForm">
+                    <form class="imcForm">
+                        <input type="text" id="lblIdade" name="age" placeholder="Idade" value="" required><br><br>
+                        <input type="number" id="lblAltura" name="height" placeholder="Altura (m)" value="" requiered><br><br>
+                        <input type="number" id="lblPeso" name="weight" placeholder="Peso (kg)" value="" required><br><br>
+                    </form>
+                    <div class="divResult">
+                        <p>IDADE: <span id="userIdade"></span></p>
+                        <p>IMC: <span id="imcResult"></span></p>
+                        <p>SITUAÇÃO: <span id="imcSit"></span></p>
+                    </div>
                 </div>
+                    <button class="btnCalcular" onclick="calcularIMC()">calcular</button>
             </div>
-                <button class="btnCalcular" onclick="calcularIMC()">calcular</button>
-        </div>
+            <footer>
+                <h4>Create by - Rodrigo Oliveira</h4>
+            </footer>
     </body>
 </html>

@@ -3,7 +3,9 @@
 body{
     background-image: url(./img/backgroundIMC.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;}
+    background-size: 100%;
+    margin: 0;
+    display: block;}
 
 .principal{
     width: 350px;
@@ -11,7 +13,8 @@ body{
     border: 5px solid chartreuse;
     border-style: double;
     margin: 110px auto;
-    border-radius: 15px;}
+    border-radius: 15px;
+    margin-bottom: 40px;}
 
 .divForm{
     width: 250px;
@@ -52,3 +55,10 @@ body{
 span{
     color: black;
     font-family: 'Righteous', cursive;}
+   
+h4{
+        text-align: right;
+        margin: 0;
+        padding: 15px;
+        font-family: 'Righteous', cursive;
+}
