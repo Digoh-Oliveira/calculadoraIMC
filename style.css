@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background-image: url(./img/backgroundIMC.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;}
+
+.principal{
+    width: 350px;
+    height: 500px;
+    border: 5px solid chartreuse;
+    border-style: double;
+    margin: 110px auto;
+    border-radius: 15px;}
+
+.divForm{
+    width: 250px;
+    height: 320px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 15px;
+    background-color: chartreuse;}
+
+.btnCalcular{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    margin-left: 130px;
+    margin-top: 15px;
+    background-color: #ccc;
+    border: 1px solid blue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.imcForm input{
+     height: 20px;
+     margin-left: 15px;
+     margin-top: 10px;}
+
+.divResult{
+    width: 207px;
+    height: 120px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    font-family: 'Righteous', cursive;
+    color: forestgreen;}
+
+span{
+    color: black;
+    font-family: 'Righteous', cursive;}
