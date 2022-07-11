@@ -98,3 +98,8 @@ function calcularIMC(){
     }
    
 }
+
+function resetarIMC(){
+
+    location.reload();
+}
